@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
-* binary_tree_delete - frees a trre entirely
+* binary_tree_delete - frees a tree entirely
 * @tree: the binary tree given
 */
 
