@@ -9,6 +9,6 @@ void binary_tree_delete(binary_tree_t *tree)
 	if (tree == NULL)
 		return;
 	root = binary_tree_node(NULL, 98);
-	tree->left = root;
+	tree->left->right = root;
 	free(root);
 }
